@@ -36,6 +36,7 @@ def preprocess_raw_video(videoFilePath, dim=36):
     width = vidObj.get(cv2.CAP_PROP_FRAME_WIDTH)
     success, img = vidObj.read()
     dims = img.shape
+    print (success)
     # print("Orignal Height", height)
     # print("Original width", width)
     # cascade = cv2.CascadeClassifier("haarcascade_frontalface_alt.xml")
