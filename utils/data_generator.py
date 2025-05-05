@@ -1,8 +1,3 @@
-'''
-Data Generator for Multi-Task Temporal Shift Attention Networks for On-Device Contactless Vitals Measurement
-Author: Xin Liu
-'''
-
 import math
 
 import h5py
